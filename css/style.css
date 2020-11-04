@@ -36,10 +36,11 @@ nav {
 }
 
 .nav_right {
+  height: 80px;
   width: 60%;
   /* border: 1px solid darkorange; */
   display: flex;
-  /* align-items:  */
+  align-items: center;
   justify-content: space-around;
   position: relative;
 }
@@ -66,7 +67,7 @@ nav {
   display: none;
   position: absolute;
   top: 80px;
-  right: 250px;
+  right: 270px;
   border: 1px solid darkmagenta;
   width: 150px;
   height: 500px;
@@ -75,7 +76,7 @@ nav {
   display: none;
   position: absolute;
   top: 80px;
-  right: 300px;
+  right: 370px;
   border: 1px solid darkmagenta;
   width: 150px;
   height: 500px;
@@ -84,7 +85,7 @@ nav {
   display: none;
   position: absolute;
   top: 80px;
-  right: 300px;
+  right: 450px;
   border: 1px solid darkmagenta;
   width: 150px;
   height: 500px;
@@ -93,7 +94,7 @@ nav {
   display: none;
   position: absolute;
   top: 80px;
-  right: 300px;
+  right: 570px;
   border: 1px solid darkmagenta;
   width: 150px;
   height: 500px;
