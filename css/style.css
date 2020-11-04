@@ -15,6 +15,8 @@ nav {
   border: 1px solid black;
   display: flex;
   align-items: center;
+  position: relative;
+
 }
 
 .nav_left {
@@ -35,4 +37,18 @@ nav {
   display: flex;
   /* align-items:  */
   justify-content: space-around;
+}
+
+.pannello_help {
+  position: absolute;
+  top: 80px;
+  right: 120px;
+  border: 1px solid black;
+  display: none;
+  width: 150px;
+  height: 300px;
+}
+
+.active {
+  display: flex;
 }
