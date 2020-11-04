@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
   font-family: sans-serif;
-
+  list-style: none;
 }
 
 .logo img{
@@ -15,9 +15,13 @@ nav {
   border: 1px solid black;
   display: flex;
   align-items: center;
-  position: relative;
-
 }
+
+.nav_left ul li {
+  display: inline-block;
+}
+
+
 
 .nav_left {
   width: 40%;
@@ -37,17 +41,65 @@ nav {
   display: flex;
   /* align-items:  */
   justify-content: space-around;
+  position: relative;
+}
+
+.nav_right ul {
+  display: flex;
+}
+.nav_right ul li {
+  margin-left: 40px;
 }
 
 .pannello_help {
+  display: none;
   position: absolute;
   top: 80px;
-  right: 120px;
+  right: 170px;
   border: 1px solid black;
   display: none;
   width: 150px;
   height: 300px;
 }
+
+.pannello_azienda {
+  display: none;
+  position: absolute;
+  top: 80px;
+  right: 250px;
+  border: 1px solid darkmagenta;
+  width: 150px;
+  height: 500px;
+}
+.pannello_prod {
+  display: none;
+  position: absolute;
+  top: 80px;
+  right: 300px;
+  border: 1px solid darkmagenta;
+  width: 150px;
+  height: 500px;
+}
+.pannello_costi {
+  display: none;
+  position: absolute;
+  top: 80px;
+  right: 300px;
+  border: 1px solid darkmagenta;
+  width: 150px;
+  height: 500px;
+}
+.pannello_tariffe {
+  display: none;
+  position: absolute;
+  top: 80px;
+  right: 300px;
+  border: 1px solid darkmagenta;
+  width: 150px;
+  height: 500px;
+}
+
+
 
 .active {
   display: flex;
