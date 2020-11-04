@@ -12,7 +12,7 @@
 
 nav {
   height: 80px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   align-items: center;
 }
@@ -57,10 +57,11 @@ nav {
   position: absolute;
   top: 80px;
   right: 170px;
-  border: 1px solid black;
   display: none;
   width: 150px;
   height: 300px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px grey;
 }
 
 .pannello_azienda {
@@ -68,36 +69,44 @@ nav {
   position: absolute;
   top: 80px;
   right: 270px;
-  border: 1px solid darkmagenta;
   width: 150px;
   height: 500px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px grey;
+
 }
 .pannello_prod {
   display: none;
   position: absolute;
   top: 80px;
   right: 370px;
-  border: 1px solid darkmagenta;
   width: 150px;
   height: 500px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px grey;
+
 }
 .pannello_costi {
   display: none;
   position: absolute;
   top: 80px;
   right: 450px;
-  border: 1px solid darkmagenta;
   width: 150px;
   height: 500px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px grey;
+
 }
 .pannello_tariffe {
   display: none;
   position: absolute;
   top: 80px;
   right: 570px;
-  border: 1px solid darkmagenta;
   width: 150px;
   height: 500px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px grey;
+
 }
 
 
