@@ -19,7 +19,13 @@ nav {
 
 .nav_left ul li {
   display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
 }
+.nav_left ul li a{
+  color: black;
+}
+
 
 
 
@@ -50,6 +56,8 @@ nav {
 }
 .nav_right ul li {
   margin-left: 40px;
+  cursor: pointer;
+
 }
 
 .pannello_help {
@@ -61,7 +69,8 @@ nav {
   width: 150px;
   height: 300px;
   border-radius: 10px;
-  box-shadow: 10px 10px 30px grey;
+  border: 1px solid lightgrey;
+  box-shadow: 10px 10px 10px lightgrey;
 }
 
 .pannello_azienda {
@@ -70,9 +79,10 @@ nav {
   top: 80px;
   right: 270px;
   width: 150px;
-  height: 500px;
+  height: 350px;
   border-radius: 10px;
-  box-shadow: 10px 10px 30px grey;
+  border: 1px solid lightgrey;
+  box-shadow: 10px 10px 10px lightgrey;
 
 }
 .pannello_prod {
@@ -81,9 +91,10 @@ nav {
   top: 80px;
   right: 370px;
   width: 150px;
-  height: 500px;
+  height: 200px;
   border-radius: 10px;
-  box-shadow: 10px 10px 30px grey;
+  border: 1px solid lightgrey;
+  box-shadow: 10px 10px 10px lightgrey;
 
 }
 .pannello_costi {
@@ -94,18 +105,20 @@ nav {
   width: 150px;
   height: 500px;
   border-radius: 10px;
-  box-shadow: 10px 10px 30px grey;
+  border: 1px solid lightgrey;
+  box-shadow: 10px 10px 10px lightgrey;
 
 }
-.pannello_tariffe {
+.pannello_funz {
   display: none;
   position: absolute;
   top: 80px;
-  right: 570px;
-  width: 150px;
-  height: 500px;
+  right: 300px;
+  width: 900px;
+  height: 300px;
   border-radius: 10px;
-  box-shadow: 10px 10px 30px grey;
+  border: 1px solid lightgrey;
+  box-shadow: 10px 10px 10px lightgrey;
 
 }
 
